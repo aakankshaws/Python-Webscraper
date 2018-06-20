@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-r=requests.get("https://weather.com/en-IN/weather/tenday/l/INKA0344:1:IN")
-c=r.content
-soup=BeautifulSoup(c,"html.parser")
+page=requests.get("https://weather.com/en-IN/weather/tenday/l/INKA0344:1:IN")
+content=page.content
+soup=BeautifulSoup(content,"html.parser")
 l=[]
 all=soup.find("div",{"class":"locations-title ten-day-page-title"}).find("h1").text
  
