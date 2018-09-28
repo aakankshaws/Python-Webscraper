@@ -14,5 +14,7 @@ python weather_data_bs4.py
 # sample output
 
 The sample output is in output.csv
-
+ 
+ # Website
+ https://medium.com/@aakankshaws/using-beautifulsoup-requests-to-scrape-weather-data-9c6e9d317800
 
